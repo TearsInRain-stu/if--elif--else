@@ -8,6 +8,7 @@ height = input("Please enter your height: ")
    >= 120 cm you need to pay 20 dallors
    <  120 cm you are free
 """
+
 if int(height) > 120:
     print("You need to pay 20 dallors")
 else:
