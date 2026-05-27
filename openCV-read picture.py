@@ -4,7 +4,7 @@ import cv2
 # cv2.imread函数用来读取图片
 # 语法:cv2.imread(r"address")
 
-img = cv2.imread(r"C:\Users\Aris\Desktop\piture\gzp2DYV2.jpeg")
+img = cv2.imread(r"C:\Users\Aris\Desktop\piture\gzp2DYV2.jpeg") # r 避免转移字符
 
 # 显示图片的函数
 # imshow函数创建窗口
