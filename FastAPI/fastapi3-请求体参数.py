@@ -12,7 +12,7 @@ from pydantic import BaseModel,Field
 app = FastAPI()
 
 class Book(BaseModel):
-    title: str = Field(...,min_length=2,max_length=20,description="用户名，长度要求在2~20")
+    title: str = Field(...,min_length=2,max_length=20,description="用户名，长度要求在2~20") # Field(默认参数,校检)
     author: str = Field(...,min_length=2,max_length=10)
     publisher: str = Field("黑马程序员")
     price: int = Field(...,ge=0)
